@@ -1,9 +1,8 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
-player createDiarySubject ["reignofterror","Reign of Terror"];
+player createDiarySubject ["sealteamsloth","Seal Team Sloth"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["governmentlaws","Government Laws"];
 player createDiarySubject ["serverrules","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
@@ -25,114 +24,21 @@ player createDiarySubject ["controls","Controls"];
 */
 	player createDiaryRecord["changelog",
 		[
-			"Bug / Feature Tracker",
+			"Official Change Log",
 				"
-					The change log can be found on www.sealteamsloth.com or http://rm.iamtonic.co/projects/altis-life/roadmap
-				"
-		]
-	];
-//	Government Laws Section
-	player createDiaryRecord ["governmentlaws",
-		[
-			"General Laws & Punishments",
-				"
-				The following are against the law and will result in you being arrested:<br/>
-				Murder and/or attempted murder.<br/>
-				Robbery and/or attempted robbery.<br/>
-				Performing acts of terrorism.<br/>
-				Breaking someone out of prison and/or attempted prison break.<br/>
-				Theft of a police vehicle.<br/>
-				Failure to pay an issued ticket.<br/>
-				Evading police.<br/>
-				<br/>
-				The following are against the law and will result in you being warned, ticketed, arrested or all 3 depending whether its your 1st 2nd or in some cases, 3rd violation of the crime.<br/>
-				(Example: 1st > 2nd > 3rd)<br/>
-				Carrying/brandishing a legal firearm around Cities/Towns - Ticket of $4000 and confiscation > Arrest > Execution<br/>
-				Possession of an illegal firearm - Confiscation and $10,000 ticket > Arrest<br/>
-				Possession of a legal firearm without a valid firearms license - Confiscation for 5 minutes to obtain licence > Arrest<br/>
-				Discharge of a firearm in a public area - Ticket of $2500 and confiscation > Arrest<br/>
-				Firearms trafficking - Ticket of $8,000 and confiscation > Arrest<br/>
-				Reckless Driving - Warning and ticket of $1000 > Impound vehicle > Arrest<br/>
-				Grand Theft Auto (Stealing a vehicle) - Arrest or fine equal to price of vehicle<br/>
-				Failure to use headlights at night - Ticket $1000 > Vehicle Impounded<br/>
-				Failure to pull over and yield to a police vehicle with sirens on - Warning and Ticket of $3000 > Arrest<br/>
-				Illegal Parking - Warning > Impounded<br/>
-				Possession of Cannabis (Unprocessed Marijuana) - Warning and confiscation > Ticket of $3000 and confiscation<br/>
-				Possession of Marijuana (Processed Cannabis) - Ticket of $3000 and confiscation > Ticket of $5000 and confiscation<br/>
-				Possession of Heroin (Unprocessed or Processed) - Immediate Arrest and ticket of $8000<br/>
-				Possession of Cocaine - Ticket of $6000 and confiscation > Arrest and ticket of $8000<br/>
-				Illegal Narcotics Trafficking (buying from or selling to civilians) - Ticket of $3000 and confiscation > Arrest<br/>
-				Possession of Turtle Meat - Ticket of $3000 and confiscation > Arrest<br/>
-				Petty Theft - Ticket of $1000 made to return items or compensate owner > Arrest<br/>
-				Public Disturbance - Warning > Ticket of $2000 and removal from area > Arrest<br/>
-			    Public indecency - Warning > Ticket of $2000 and removal from area > Arrest<br/>
-				Obstruction of Justice - Ticket of $2000 and removal from area > Arrest<br/>
-				Disobeying Lawful Orders - Ticket of $2000 and removal from area > Arrest<br/>
-				Evading Police Checkpoints - Stop and search, Ticket of $10000 > Arrest<br/>
-				Looking Through Backpacks/Vehicle Inventories - Warning that its against server rules > Ticket of $5000 or Arrest at officers descretion > Reported to mod<br/>
-				Use of lockpicks on a vehicle - Few counts = Ticket for price of bounty - Excessive counts = Arrest<br/>
-				Hit and Runs - 1 or 2 counts = Ticket up to price of bounty - Excessive counts = Arrest<br/><br/>
-				"
-		]
-	];	
-	player createDiaryRecord ["governmentlaws",
-		[
-			"Illegal and Legal Items, Vehicles and Firearms",
-				"
-				It is Illegal for a civilian to possess/operate any of the following:<br/><br/>
-				Gunboat<br/>
-				Ifrit<br/>
-				Any police skinned vehicle.<br/>
-				Any rebel skinned vehicle.<br/>
-				Turtle Meat<br/>
-				Marijuana<br/>
-				Cannabis<br/>
-				Heroine<br/>
-				Cocaine<br/>
-				Any rifle<br/>
-				Lockpicks<br/>
-				<br/>
-				It is legal for a civilian to possess/operate any of the following:<br/>
-				Any of the available pistols except the tazer (PO7 with silencer)<br/>
-				Diamonds<br/>
-				Iron<br/>
-				Copper<br/>
-				Salt<br/>
-				Oil<br/>
-				Fish<br/><br/>
+					The official change log can be found on the BIS forums (search Altis Life RPG)
 				"
 		]
 	];
-	player createDiaryRecord ["governmentlaws",
+	
+	player createDiaryRecord["changelog",
 		[
-			"Punishments for going over the speed limits",
+			"Custom Change Log",
 				"
-				10 km/hr over - $1000<br/>
-				20 km/hr over - $2000<br/>
-				30 km/hr over - $3000<br/>
-				40 km/hr over - $4000<br/>
-				50 km/hr over - Imediate arrest for improper operation of a motor vehicle. Impound vehicle.<br/><br/>
+					This section is meant for people doing their own edits to the mission, DO NOT REMOVE THE ABOVE.
 				"
 		]
-	];	
-	player createDiaryRecord ["governmentlaws",
-		[
-			"Speed Limits",
-				"
-				Side streets and Main road in towns and cities - 50 km/hr<br/>
-				Built up residential areas outside of towns and cities - 70 km/hr<br/>
-				Main road outside of towns and cities - 110 km/hr<br/><br/>
-				"
-		]
-	];	
-	player createDiaryRecord ["governmentlaws",
-		[
-			"Government laws",
-				"
-				A set of laws put forward by the Altis government and enforced by the APD. (Not to be confused with server rules)<br/><br/>
-				"
-		]
-	];	
+	];
 
 		player createDiaryRecord ["serverrules",
 		[
@@ -299,29 +205,29 @@ player createDiarySubject ["controls","Controls"];
 	
 	
 	
-// Reign of Terror Section
+// Seal Team Sloth Section
 
-	player createDiaryRecord ["reignofterror",
+	player createDiaryRecord ["sealteamsloth",
 		[
 			"Teamspeak",
 				"
-				Reign of Terror Teamspeak can be found at:<br/><br/>
-				asts.gameservers.com:9541<br/><br/>
+				Seal Team Sloth Teamspeak can be found at:<br/><br/>
+				ts3.sealteamsloth.com:8027<br/><br/>
 				"
 		]
 	];
 	
-	player createDiaryRecord ["reignofterror",
+	player createDiaryRecord ["sealteamsloth",
 		[
 			"Website/Forums",
 				"
-				www.reignofterrorclan.enjin.com/<br/>
+				www.sealteamsloth.com<br/>
 				This is also where ban appeals will be made.<br/><br/>
 				"
 		]
 	];
 	
-	player createDiaryRecord ["reignofterror",
+	player createDiaryRecord ["sealteamsloth",
 		[
 			"Wiki",
 				"
@@ -330,12 +236,12 @@ player createDiarySubject ["controls","Controls"];
 		]
 	];
 	
-	player createDiaryRecord ["reignofterror",
+	player createDiaryRecord ["sealteamsloth",
 		[
 			"Donations",
 				"
-				Donations keep the server running, also you gain access to donator shop.<br/><br/>
-				www.reignofterrorclan.enjin.com/<br/><br/>
+				Donations keep the server running, anything and everything helps.<br/><br/>
+				sealteamsloth.com/donate<br/><br/>
 				"
 		]
 	];
@@ -370,7 +276,8 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Aviation",
 				"
-				1. No helicopter can land within any city limits (especially Kavala) without authorization from the highest ranking officer online. (Exceptions being what is listed below.)<br/>
+				1. No helicopter can land within city limits without authorization from the highest ranking officer online. (Exceptions being what is listed below.)<br/>
+				Kavala: The hospital helipad (037129) or docks (031128).<br/>
 				Athira: The sports field (138185) or behind the DMV (140188).<br/>
 				Pyrgos: The fields North/East of DMV (170127)<br/>
 				Sofia: Opposite the car shop (258214) or the fields Southeast of the garage (257212)<br/>
@@ -455,9 +362,12 @@ player createDiarySubject ["controls","Controls"];
 				"
 				The following speeds are to be enforced by the Altis Police Force for the absolute safety of the citizens of Kavala and all travelling beyond the city.<br/><br/>
 				
-				Side streets and Main road in towns and cities - 50 km/hr<br/>
-				Built up residential areas outside of towns and cities - 70 km/hr<br/>
-				Main road outside of towns and cities - 110 km/hr<br/><br/>
+				Inside major cities:<br/>
+				Small roads: 50km/h<br/>
+				Main roads: 65km/h<br/>
+				Outside major cities:<br/>
+				Small roads: 80km/h<br/>
+				Main roads: 110km/h<br/><br/>
 				"
 		]
 	];
