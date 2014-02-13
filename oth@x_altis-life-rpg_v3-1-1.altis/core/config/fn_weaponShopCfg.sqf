@@ -65,7 +65,10 @@ switch(_shop) do
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,130],
-						["30Rnd_9x21_Mag",nil,250]
+						["30Rnd_9x21_Mag",nil,250],
+						["U_B_Wetsuit",nil,2000],
+						["G_Diving",nil,500],
+						["V_RebreatherB",nil,5000]
 					]
 				];
 			};
@@ -86,6 +89,7 @@ switch(_shop) do
 						["hgun_ACPC2_F",nil,17500],
 						["arifle_MXC_F",nil,30000],
 						["optic_Arco",nil,2500],
+						["acc_pointer_IR",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_9x21_Mag",nil,60],
@@ -163,6 +167,7 @@ switch(_shop) do
 						["hgun_Rook40_F",nil,750],
 						["hgun_PDW2000_F",nil,6500],
 						["optic_ACO_grn_smg",nil,750],
+						["acc_pointer_IR",nil,2500],
 						["ToolKit",nil,50],
 						["itemgps",nil,50],
 						["16Rnd_9x21_Mag",nil,25],

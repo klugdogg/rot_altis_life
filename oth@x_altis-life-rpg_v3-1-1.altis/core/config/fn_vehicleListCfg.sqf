@@ -328,7 +328,8 @@ switch (_shop) do
 		_return =
 		[
 			["C_Rubberboat",5000],
-			["C_Boat_Civil_01_F",22000]
+			["C_Boat_Civil_01_F",22000],
+			["B_SDV_01_F",120000]
 		];
 	};
 	
@@ -337,7 +338,8 @@ switch (_shop) do
 		_return =
 		[
 			["C_Rubberboat",5000],
-			["C_Boat_Civil_01_F",22000]
+			["C_Boat_Civil_01_F",22000],
+			["B_SDV_01_F",120000]
 		];
 	};
 	
@@ -346,7 +348,8 @@ switch (_shop) do
 		_return =
 		[
 			["C_Rubberboat",5000],
-			["C_Boat_Civil_01_F",22000]
+			["C_Boat_Civil_01_F",22000],
+			["B_SDV_01_F",120000]
 		];
 	};
 	
