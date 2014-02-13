@@ -4,6 +4,7 @@
 	Description:
 	Starts the initialization of the server.
 */
+[] call compile preprocessFile "core\ROT\gridinit.sqf";
 [] call compile PreprocessFileLineNumbers "\life_server\init.sqf";
 master_group attachTo[bank_obj,[0,0,0]];
 
