@@ -24,6 +24,7 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["U_B_CombatUniform_mcam_tshirt",nil,350]];
 			_ret set[count _ret,["U_B_survival_uniform",nil,1250]];
+			_ret set[count _ret,["U_B_Wetsuit",nil,2000]];
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
@@ -60,7 +61,8 @@ switch (_filter) do
 			["G_Aviator",nil,75],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["G_Diving",nil,500]
 		];
 	};
 	
@@ -71,6 +73,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["V_PlateCarrier2_rgr",nil,1500]];
+			_ret set[count _ret,["V_RebreatherB",nil,5000]];
 		};
 	};
 	

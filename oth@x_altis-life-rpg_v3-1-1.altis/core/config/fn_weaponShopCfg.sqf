@@ -65,10 +65,7 @@ switch(_shop) do
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,130],
-						["30Rnd_9x21_Mag",nil,250],
-						["U_B_Wetsuit",nil,2000],
-						["G_Diving",nil,500],
-						["V_RebreatherB",nil,5000]
+						["30Rnd_9x21_Mag",nil,250]						
 					]
 				];
 			};
