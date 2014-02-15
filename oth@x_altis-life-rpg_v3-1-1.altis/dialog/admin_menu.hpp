@@ -31,7 +31,7 @@ class life_admin_menu {
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2901;
-			text = "STS Mini-Admin Menu";
+			text = "RoT Mini-Admin Menu";
 			x = 0.1;
 			y = 0.2;
 			w = 0.6;
