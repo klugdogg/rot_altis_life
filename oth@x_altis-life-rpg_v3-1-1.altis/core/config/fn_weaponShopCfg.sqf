@@ -163,7 +163,7 @@ switch(_shop) do
 			case (__GETC__(life_donator) == 0): {"You are not a donator!"};
 			case (__GETC__(life_donator) == 1):
 			{
-				["STS Donator Shop Tier 1",
+				["RoT Donator Shop Tier 1",
 					[
 						["hgun_Rook40_F",nil,750],
 						["hgun_PDW2000_F",nil,6500],
@@ -179,32 +179,37 @@ switch(_shop) do
 
 			case (__GETC__(life_donator) == 2):
 			{
-				["STS Donator Shop Tier 2",
+				["RoT Donator Shop Tier 2",
 					[
 						["hgun_Rook40_F",nil,750],
 						["hgun_PDW2000_F",nil,6500],
 						["arifle_MK20C_plain_F",nil,25000],
 						["optic_ACO_grn_smg",nil,750],
+						["srifle_GM6_F",nil,150000],
+						["optic_SOS",nil,6000],
 						["NVGoggles",nil,350],
 						["ToolKit",nil,50],
 						["itemgps",nil,50],
 						["16Rnd_9x21_Mag",nil,25],
 						["30Rnd_9x21_Mag",nil,75],
-						["30Rnd_556x45_Stanag",nil,125]
+						["30Rnd_556x45_Stanag",nil,125],
+						["5Rnd_127x108_Mag",nil,400]
 					]
 				];
 			};
 
 			case (__GETC__(life_donator) >= 3):
 			{
-				["STS Donator Shop Tier 3",
+				["RoT Donator Shop Tier 3",
 					[
 						["hgun_Rook40_F",nil,500],
 						["hgun_PDW2000_F",nil,6500],
 						["hgun_pistol_heavy_01_F",nil,5850],
 						["arifle_Mk20C_plain_F",nil,25000],
+						["srifle_GM6_F",nil,100000],
 						["optic_ACO_grn_smg",nil,750],
 						["optic_MRCO",nil,10000],
+						["optic_Nightstalker",nil,50000],
 						["NVGoggles",nil,350],
 						["ToolKit",nil,50],
 						["itemgps",nil,50],
@@ -212,7 +217,8 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,25],
 						["30Rnd_9x21_Mag",nil,75],
 						["11Rnd_45ACP_Mag",nil,85],
-						["30Rnd_556x45_Stanag",nil,125]
+						["30Rnd_556x45_Stanag",nil,125],
+						["5Rnd_127x108_Mag",nil,400]
 					]
 				];
 			};
