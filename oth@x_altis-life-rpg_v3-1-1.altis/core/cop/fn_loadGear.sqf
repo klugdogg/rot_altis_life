@@ -12,6 +12,7 @@ _allowedItems =
 	"arifle_sdar_F",
 	"hgun_P07_snds_F",
 	"hgun_p07_F",
+	"srifle_GM6_F",
 	"arifle_MX_F",
 	"SMG_02_ACO_F",
 	"optic_Holosight",
@@ -20,6 +21,8 @@ _allowedItems =
 	"arifle_MXM_F",
 	"optic_Arco",
 	"optic_MRCO",
+	"optic_SOS",
+	"optic_Nightstalker",
 	"muzzle_snds_H",
 	"muzzle_snds_L"
 ];

@@ -85,12 +85,16 @@ switch(_shop) do
 						["SMG_02_ACO_F",nil,15000],
 						["hgun_ACPC2_F",nil,17500],
 						["arifle_MXC_F",nil,30000],
+						["srifle_GM6_F",nil,150000],
 						["optic_Arco",nil,2500],
+						["optic_SOS",nil,4000],
+						["optic_Nightstalker",nil,8000],
 						["acc_pointer_IR",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["9Rnd_45ACP_Mag",nil,200],
+						["5Rnd_127x108_Mag",nil,400]
 					]
 				];
 			};
