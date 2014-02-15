@@ -291,7 +291,7 @@ life_weapon_shop_array =
 	["srifle_GM6_F",150000],
 	["30Rnd_45ACP_Mag_SMG_01",60],
 	["30Rnd_9x21_Mag",30],
-	["5Rnd_127x108_Mag,nil,400]
+	["5Rnd_127x108_Mag",nil,400]
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 
