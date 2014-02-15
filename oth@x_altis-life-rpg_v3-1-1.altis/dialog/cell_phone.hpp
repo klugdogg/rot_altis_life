@@ -31,7 +31,7 @@ class Life_cell_phone {
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 3001;
-			text = "STS Mobile";
+			text = "RoT Mobile";
 			x = 0.1;
 			y = 0.2;
 			w = 0.6;
