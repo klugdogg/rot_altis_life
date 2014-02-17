@@ -8,9 +8,6 @@
 
 #include "corrections.sqf"
 
-<!-- #include "$100island.sqf" -->
-
-
 
 
 
