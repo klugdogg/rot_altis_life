@@ -2691,6 +2691,7 @@ class Mission
 				{
 					position[]={3273.9375,2.2053199,12977.392};
 					azimut=182.058;
+					offsetY=0.1;
 					special="NONE";
 					id=148;
 					side="WEST";
@@ -7739,7 +7740,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [getPos this select 0, getPos this select 1,-1]; this setVectorUp [0,0,1];";
+			init="this setPos [getPos this select 0, getPos this select 1,-1]; this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item436
 		{
@@ -7751,7 +7752,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item437
 		{
@@ -7763,7 +7764,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item438
 		{
@@ -7774,7 +7775,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item439
 		{
@@ -7785,7 +7786,7 @@ class Mission
 			vehicle="Land_City2_8m_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item440
 		{
@@ -7868,7 +7869,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item448
 		{
@@ -7879,7 +7880,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item449
 		{
@@ -7890,7 +7891,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setPos [getPos this select 0, getPos this select 1,-2]; this setVectorUp [0,0,1];";
+			init="this setPos [getPos this select 0, getPos this select 1,-2]; this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item450
 		{
@@ -7911,7 +7912,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item452
 		{
@@ -7922,7 +7923,7 @@ class Mission
 			vehicle="Land_Mil_WiredFence_F";
 			leader=1;
 			skill=0.60000002;
-			init="this setVectorUp [0,0,1];";
+			init="this setVectorUp [0,0,1]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item453
 		{

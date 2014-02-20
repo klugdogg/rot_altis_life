@@ -23,8 +23,9 @@ switch (_vehicle) do
 			case 4: {_color = "Dark Red";};
 			case 5: {_color = "Blue / White"};
 			case 6: {_color = "Black"};
-			case 7: {_color = "Black"};
-			case 8: {_color = "Taxi"};
+			/*case 7: {_color = "Black"}; */
+			case 7: {_color = "Taxi"};
+			case 8: {_color = "Cop"}; /*Added new cop texture file */
 		};
 	};
 	
