@@ -149,6 +149,7 @@ switch (_code) do
 					};
 					systemChat "You have locked your vehicle.";
 				};
+				_veh say3D "locksound";
 			};
 		};
 	};
