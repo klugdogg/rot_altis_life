@@ -277,7 +277,7 @@ life_weapon_shop_array =
 	["arifle_TRG21_F",3500],
 	["optic_MRCO",5000],
 	["optic_SOS",4000],
-	["optic_Nightstalker",8000],
+	["Rangefinder",1000],
 	["optic_Aco",850],
 	["arifle_MX_F",7500],
 	["arifle_MXC_F",5000],

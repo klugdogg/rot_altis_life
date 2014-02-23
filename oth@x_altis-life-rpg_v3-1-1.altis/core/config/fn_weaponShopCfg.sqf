@@ -40,7 +40,11 @@ switch(_shop) do
 						["Medikit",nil,1000],
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
+						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300]
 					]
 				];
 			};
@@ -88,7 +92,7 @@ switch(_shop) do
 						["srifle_GM6_F",nil,150000],
 						["optic_Arco",nil,2500],
 						["optic_SOS",nil,4000],
-						["optic_Nightstalker",nil,8000],
+						["Rangefinder",nil,8000],
 						["acc_pointer_IR",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
@@ -209,7 +213,8 @@ switch(_shop) do
 						["srifle_GM6_F",nil,175000],
 						["optic_ACO_grn_smg",nil,750],
 						["optic_MRCO",nil,10000],
-						["optic_Nightstalker",nil,50000],
+						["optic_SOS",nil,6000],
+						["Rangefinder",nil,20000],
 						["NVGoggles",nil,350],
 						["ToolKit",nil,50],
 						["itemgps",nil,50],
