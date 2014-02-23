@@ -284,7 +284,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 4";
+					description="Whitelisted - Cop 4";
 				};
 				class Item14
 				{
@@ -310,7 +310,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 3";
+					description="Whitelisted - Cop 3";
 				};
 				class Item16
 				{
