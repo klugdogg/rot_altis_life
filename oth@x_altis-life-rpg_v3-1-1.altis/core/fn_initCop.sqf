@@ -26,7 +26,7 @@ switch (true) do
 			//waitUntil{scriptDone _handle};
 		};
 	};
-	
+/*	
 	case (!(str(player) in ["cop_1","cop_2","cop_3","cop_4"])):
 	{
 		switch (true) do
@@ -36,6 +36,17 @@ switch (true) do
 			default {endMission "Loser";};
 		};
 	};
+*/
+	case (!(str(player) in ["cop_1","cop_2"])):
+	{
+		switch (true) do
+		{
+			case(__GETC__(life_coplevel) > 0) : {}; // Do nothing
+			case (__GETC__(life_adminlevel) > 0) : {}; //Do nothing
+			default {endMission "Loser";};
+		};
+	};
+
 };
 
 [] call life_fnc_spawnMenu;
