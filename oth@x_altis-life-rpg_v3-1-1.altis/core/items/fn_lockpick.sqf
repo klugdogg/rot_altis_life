@@ -27,7 +27,7 @@ for "_i" from 0 to 3 do
 if(player distance _car > 10) exitWith {life_action_inUse = false; titleText["The vehicle is not in range!","PLAIN"];};
 
 life_action_inUse = false;
-if(_dice < 30) then
+if(_dice < 20) then
 {
 	titleText["You now have keys to this vehicle.","PLAIN"];
 	life_vehicles set[count life_vehicles,_car];
