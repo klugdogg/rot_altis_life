@@ -10,6 +10,8 @@ _vehicle = [_this,0,"",[""]] call BIS_fnc_param;
 _index = [_this,1,-1,[0]] call BIS_fnc_param;
 _color = "";
 
+
+
 switch (_vehicle) do
 {
 	case "C_Offroad_01_F" :
@@ -149,8 +151,9 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
+			case 0: {_color = "Black"};
+			case 1: {_color = "SWAT"};
+			case 2: {_color = "Mardorz Only"};
 		};
 	};
 	

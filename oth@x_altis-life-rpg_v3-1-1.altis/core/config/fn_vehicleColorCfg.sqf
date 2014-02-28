@@ -10,6 +10,7 @@ _vehicle = [_this,0,"",[""]] call BIS_fnc_param;
 if(_vehicle == "") exitWith {[]};
 _ret = [];
 
+
 switch (_vehicle) do
 {
 	case "I_Heli_Transport_02_F":
@@ -150,8 +151,9 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
+			["icons\hunter_test_03.jpg","cop","icons\hunter_test_back_03.jpg"],
+			["icons\hunter_mardorz.jpg","cop","icons\hunter_mardorz_back.jpg"]
 		];
 	};
 	
