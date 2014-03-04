@@ -22,7 +22,6 @@ _allowedItems =
 	"optic_Arco",
 	"optic_MRCO",
 	"optic_SOS",
-	"optic_Nightstalker",
 	"muzzle_snds_H",
 	"muzzle_snds_L"
 ];
