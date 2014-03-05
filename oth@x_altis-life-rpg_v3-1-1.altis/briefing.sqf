@@ -74,6 +74,7 @@ player createDiarySubject ["controls","Controls"];
 				T: Vehicle Trunk<br/>
 				Left Shift + R: Restrain (Cop Only)<br/>
 				Left Shift + G: Knock out / stun (Civ Only, used for robbing them)<br/>
+				Left Shift + L: Cop Siren Lights<br/>
 				"
 		]
 	];
