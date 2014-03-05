@@ -355,13 +355,17 @@ switch (_shop) do
 	
 	case "cop_ship_1":
 	{
-		_return =
-		[
-			["B_Boat_Transport_01_F",3000],
-			["C_Boat_Civil_01_police_F",20000],
-			["B_Boat_Armed_01_minigun_F",75000],
-			["B_SDV_01_F",100000]
-		];
+			_return set[count _return,
+			["B_Boat_Transport_01_F",3000]];
+			_return set[count _return,
+			["C_Boat_Civil_01_police_F",20000]];
+			_return set[count _return,
+			["B_SDV_01_F",100000]];
+			if(__GETC__(life_coplevel) > 2) then
+			{
+				_return set[count _return,
+				["B_Boat_Armed_01_minigun_F",75000]];
+			};
 	};
 	
 	case "donator_heli":
