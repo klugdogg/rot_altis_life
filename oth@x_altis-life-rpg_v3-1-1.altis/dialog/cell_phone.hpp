@@ -41,7 +41,7 @@ class Life_cell_phone {
 		class TextToSend : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 3002;
-			text = ""$STR_CELL_TextToSend";
+			text = "$STR_CELL_TextToSend";
 			x = 0.1;
 			y = 0.25;
 			w = 0.6;
