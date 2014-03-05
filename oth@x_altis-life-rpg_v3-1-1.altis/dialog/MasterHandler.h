@@ -22,6 +22,4 @@
 #include "trunk.hpp"
 #include "spawnSelection.hpp"
 #include "chop_shop.h"
-/*
-#include "gcam_component.hpp"
-*/
+#include "pInteraction.h"
