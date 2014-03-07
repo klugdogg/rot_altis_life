@@ -86,8 +86,7 @@ switch (true) do
 	
 	case (_item == "pickaxe"):
 	{
-		// [] spawn life_fnc_pickAxeUse;
-		hint "Just use the action menu when near a mine.";
+		[] spawn life_fnc_pickAxeUse;
 	};
 	
 	default
