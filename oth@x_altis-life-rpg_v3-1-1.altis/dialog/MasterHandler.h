@@ -12,7 +12,7 @@
 #include "veh_shop.hpp"
 #include "shops.hpp"
 //#include "gcam_config.hpp"
-#include "gcam\gcam_component.hpp"
+//#include "gcam\gcam_component.hpp"
 #include "ui.hpp"
 #include "admin_menu.hpp"
 #include "cell_phone.hpp"
@@ -23,3 +23,4 @@
 #include "spawnSelection.hpp"
 #include "chop_shop.h"
 #include "pInteraction.h"
+#include "spectator\spectating.hpp"

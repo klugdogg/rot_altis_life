@@ -80,10 +80,10 @@ class life_admin_menu {
 			h = (1 / 25);
 		};
 		
-		class StartGCAM : Life_RscButtonMenu {
+		class Spectator : Life_RscButtonMenu {
 			idc = -1;
-			text = "GCAM";
-			onButtonClick = "closeDialog 0; closeDialog 0; [player] execVM ""dialog\gcam\gcam.sqf"";";
+			text = "Spectate";
+			onButtonClick = "closeDialog 0; closeDialog 0; [player] execVM ""dialog\spectator\specta.sqf"";";
 			x = 0.49 + (5 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.88 - (1 / 25);
 			w = (5 / 40);
