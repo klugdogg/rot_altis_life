@@ -37,7 +37,7 @@ _weedZones = ["weed_1"];
 //Create heroin zones
 {
 	_zone = createTrigger ["EmptyDetector",(getMarkerPos _x)];
-	_zone setTriggerArea[50,50,0,false];
+	_zone setTriggerArea[100,100,0,false];
 	_zone setTriggerActivation["CIV","PRESENT",true];
 	_zone setTriggerStatements["player in thislist","LIFE_Action_heroin = player addAction['Gather Heroin',life_fnc_gatherHeroin,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Heroin;"];
 } foreach _heroinZones;
@@ -45,7 +45,7 @@ _weedZones = ["weed_1"];
 //Create Weed zones
 {
 	_zone = createTrigger ["EmptyDetector",(getMarkerPos _x)];
-	_zone setTriggerArea[50,50,0,false];
+	_zone setTriggerArea[100,100,0,false];
 	_zone setTriggerActivation["CIV","PRESENT",true];
 	_zone setTriggerStatements["player in thislist","LIFE_Action_Cannabis = player addAction['Gather Cannabis',life_fnc_gatherCannabis,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Cannabis;"];
 } foreach _weedZones;
@@ -53,7 +53,7 @@ _weedZones = ["weed_1"];
 //Create cocaine zones
 {
 	_zone = createTrigger ["EmptyDetector",(getMarkerPos _x)];
-	_zone setTriggerArea[50,50,0,false];
+	_zone setTriggerArea[100,100,0,false];
 	_zone setTriggerActivation["CIV","PRESENT",true];
 	_zone setTriggerStatements["player in thislist","LIFE_Action_Coke = player addAction['Gather Cocaine',life_fnc_gatherCocaine,'',0,false,false,'','!life_action_inUse'];","player removeAction LIFE_Action_Coke;"];
 } foreach _cocaineZones;
