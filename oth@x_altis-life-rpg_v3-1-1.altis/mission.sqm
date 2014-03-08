@@ -10058,7 +10058,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=30;
+		items=10;
 		class Item0
 		{
 			position[]={3307.6736,2.0059266,12941.944};
@@ -10080,39 +10080,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={3295.605,2.0925176,12942.279};
-			a=3;
-			b=7;
-			angle=-0.21795499;
-			rectangular=1;
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate2 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item2
-		{
-			position[]={3312.4067,2.0034573,12942.166};
-			a=3;
-			b=5;
-			angle=-0.21795499;
-			rectangular=1;
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate2 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item3
-		{
-			position[]={3300.6172,2.2875309,12954.673};
+			position[]={3300.6477,2.2874081,12954.673};
 			a=1;
 			b=4;
 			angle=-180.091;
@@ -10129,39 +10097,7 @@ class Mission
 			{
 			};
 		};
-		class Item4
-		{
-			position[]={3312.3853,2.1277144,12953.626};
-			a=3;
-			b=6;
-			angle=-180.091;
-			rectangular=1;
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate1 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item5
-		{
-			position[]={3295.5789,2.2694628,12954.781};
-			a=3;
-			b=5;
-			angle=-180.091;
-			rectangular=1;
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate1 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item6
+		class Item2
 		{
 			position[]={4067.0552,21.269173,13727.054};
 			a=1;
@@ -10180,39 +10116,7 @@ class Mission
 			{
 			};
 		};
-		class Item7
-		{
-			position[]={4074.5447,21.304546,13737.781};
-			a=5;
-			b=2.3;
-			angle=-236.505;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate3 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item8
-		{
-			position[]={4063.0215,21.162878,13720.775};
-			a=5;
-			b=2.3;
-			angle=-236.505;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate3 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item9
+		class Item3
 		{
 			position[]={4075.8101,21.268805,13728.086};
 			a=1;
@@ -10231,39 +10135,7 @@ class Mission
 			{
 			};
 		};
-		class Item10
-		{
-			position[]={4068.5144,21.104683,13717.292};
-			a=5;
-			b=2.3;
-			angle=-57.146801;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate4 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item11
-		{
-			position[]={4079.887,21.294947,13734.354};
-			a=5;
-			b=2.3;
-			angle=-57.146801;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate4 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item12
+		class Item4
 		{
 			position[]={7679.2012,112.73148,16185.82};
 			a=1;
@@ -10282,39 +10154,7 @@ class Mission
 			{
 			};
 		};
-		class Item13
-		{
-			position[]={7692.0571,112.87296,16182.58};
-			a=5;
-			b=2.3;
-			angle=-167.205;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate6 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item14
-		{
-			position[]={7672.0713,112.5162,16187.343};
-			a=5;
-			b=2.3;
-			angle=-167.205;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate6 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item15
+		class Item5
 		{
 			position[]={7683.5024,112.79195,16177.927};
 			a=1;
@@ -10333,39 +10173,7 @@ class Mission
 			{
 			};
 		};
-		class Item16
-		{
-			position[]={7670.7588,112.47253,16180.978};
-			a=5;
-			b=2.3;
-			angle=12.1531;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate5 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item17
-		{
-			position[]={7690.7397,112.89338,16176.373};
-			a=5;
-			b=2.3;
-			angle=12.1531;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate5 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item18
+		class Item6
 		{
 			position[]={20698.484,36.892067,16678.877};
 			a=1;
@@ -10381,39 +10189,7 @@ class Mission
 			{
 			};
 		};
-		class Item19
-		{
-			position[]={20709.318,36.397564,16671.189};
-			a=5;
-			b=2.3;
-			angle=-146.186;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate8 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item20
-		{
-			position[]={20692.375,37.122944,16682.801};
-			a=5;
-			b=2.3;
-			angle=-146.186;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate8 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item21
+		class Item7
 		{
 			position[]={20699.859,36.658073,16669.848};
 			a=1;
@@ -10429,39 +10205,7 @@ class Mission
 			{
 			};
 		};
-		class Item22
-		{
-			position[]={20688.869,37.084003,16677.33};
-			a=5;
-			b=2.3;
-			angle=33.172798;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate7 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item23
-		{
-			position[]={20705.865,36.474609,16665.865};
-			a=5;
-			b=2.3;
-			angle=33.172798;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate7 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item24
+		class Item8
 		{
 			position[]={23205.555,14.029597,19648.697};
 			a=1;
@@ -10480,39 +10224,7 @@ class Mission
 			{
 			};
 		};
-		class Item25
-		{
-			position[]={23215.959,13.998194,19656.871};
-			a=5;
-			b=2.3;
-			angle=-219.54201;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate9 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item26
-		{
-			position[]={23199.979,14.047388,19643.967};
-			a=5;
-			b=2.3;
-			angle=-219.54201;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate9 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item27
+		class Item9
 		{
 			position[]={23214.65,13.961387,19647.324};
 			a=1;
@@ -10527,38 +10239,6 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expActiv="gate10 animate [""Door_1_rot"",1]";
-			class Effects
-			{
-			};
-		};
-		class Item28
-		{
-			position[]={23204.217,13.987542,19639.041};
-			a=5;
-			b=2.3;
-			angle=-40.183399;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate10 animate [""Door_1_rot"",0]";
-			class Effects
-			{
-			};
-		};
-		class Item29
-		{
-			position[]={23220.072,13.950303,19652.041};
-			a=5;
-			b=2.3;
-			angle=-40.183399;
-			rectangular=1;
-			activationBy="ANY";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="gate10 animate [""Door_1_rot"",0]";
 			class Effects
 			{
 			};
