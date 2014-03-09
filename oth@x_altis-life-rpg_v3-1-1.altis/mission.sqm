@@ -2109,7 +2109,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={4834.6865,339.09079,21951.473};
+					position[]={9193.5889,14.38121,21678.672};
 					azimut=-178.40298;
 					special="NONE";
 					id=99;
@@ -2253,7 +2253,7 @@ class Mission
 				};
 				class Item13
 				{
-					position[]={3491.0459,19.497612,14147.162};
+					position[]={20772.193,36.361347,6800.8115};
 					azimut=-172.961;
 					special="NONE";
 					id=111;
@@ -2359,9 +2359,8 @@ class Mission
 				};
 				class Item22
 				{
-					position[]={14327.294,18.480545,17427.756};
+					position[]={20722.551,57.744164,6597.8433};
 					azimut=-187.52699;
-					offsetY=0.69999999;
 					special="NONE";
 					id=120;
 					side="CIV";
@@ -2784,8 +2783,8 @@ class Mission
 				};
 				class Item58
 				{
-					position[]={20884.096,2.7518041,14624.528};
-					azimut=-157.79601;
+					position[]={21706.619,15.129125,7546.9482};
+					azimut=-296.70859;
 					special="NONE";
 					id=156;
 					side="CIV";
@@ -3301,7 +3300,7 @@ class Mission
 				};
 				class Item103
 				{
-					position[]={4809.4277,335.51608,21929.438};
+					position[]={9163.9619,14.398657,21661.006};
 					azimut=110.00474;
 					special="NONE";
 					id=201;
@@ -8278,7 +8277,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=220;
+		items=219;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -8410,7 +8409,7 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={4830.9424,338.62387,21948.627};
+			position[]={9189.8447,14.367478,21675.826};
 			name="Rebelop";
 			text="Rebel Outpost";
 			type="mil_triangle";
@@ -8791,7 +8790,7 @@ class Mission
 		};
 		class Item66
 		{
-			position[]={3492.7932,19.49818,14145.842};
+			position[]={20773.939,36.292984,6799.4912};
 			name="Dealer_1";
 			text="Drug Dealer";
 			type="mil_dot";
@@ -9008,15 +9007,16 @@ class Mission
 		};
 		class Item92
 		{
-			position[]={20884.641,2.7453954,14624.866};
+			position[]={21705.992,15.127161,7547.0566};
 			name="Dealer_1_3";
 			text="Drug Dealer";
 			type="mil_dot";
 			colorName="ColorOrange";
+			angle=-138.91266;
 		};
 		class Item93
 		{
-			position[]={14327.465,18.488745,17427.523};
+			position[]={20722.723,57.7551,6597.6108};
 			name="Dealer_1_4";
 			text="Drug Dealer";
 			type="mil_dot";
@@ -9940,7 +9940,7 @@ class Mission
 		};
 		class Item208
 		{
-			position[]={4820.8833,335.74954,21921.064};
+			position[]={9175.7275,14.41246,21653.881};
 			name="reb_v_1";
 			type="Empty";
 		};
@@ -10009,27 +10009,17 @@ class Mission
 		};
 		class Item217
 		{
-			position[]={5216.5391,172.21129,18831.68};
+			position[]={18883.418,178.56361,9877.6553};
 			name="Rebel_Border_1";
 			markerType="RECTANGLE";
 			type="mil_box";
 			colorName="ColorRed";
-			a=2300;
+			a=2550;
 			b=30;
 		};
 		class Item218
 		{
-			position[]={7517.8428,77.147896,20953.494};
-			name="Rebel_Border_1_1";
-			markerType="RECTANGLE";
-			type="mil_box";
-			colorName="ColorRed";
-			a=30;
-			b=2150;
-		};
-		class Item219
-		{
-			position[]={4922.0151,241.20726,20683.73};
+			position[]={19820.037,52.105728,7977.9165};
 			name="rebel_area_marker";
 			text="REBEL AREA";
 			type="hd_dot";
