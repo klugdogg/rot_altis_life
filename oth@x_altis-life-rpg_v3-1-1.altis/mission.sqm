@@ -2253,7 +2253,7 @@ class Mission
 				};
 				class Item13
 				{
-					position[]={20772.193,36.361347,6800.8115};
+					position[]={11539.563,78.330078,7047.5327};
 					azimut=-172.961;
 					special="NONE";
 					id=111;
@@ -2359,8 +2359,8 @@ class Mission
 				};
 				class Item22
 				{
-					position[]={20722.551,57.744164,6597.8433};
-					azimut=-187.52699;
+					position[]={11519.586,20.871172,9422.3691};
+					azimut=-237.9615;
 					special="NONE";
 					id=120;
 					side="CIV";
@@ -2783,8 +2783,8 @@ class Mission
 				};
 				class Item58
 				{
-					position[]={21706.619,15.129125,7546.9482};
-					azimut=-296.70859;
+					position[]={11222.124,182.41,8712.5967};
+					azimut=-446.96271;
 					special="NONE";
 					id=156;
 					side="CIV";
@@ -8790,7 +8790,7 @@ class Mission
 		};
 		class Item66
 		{
-			position[]={20773.939,36.292984,6799.4912};
+			position[]={11541.31,78.235657,7046.2124};
 			name="Dealer_1";
 			text="Drug Dealer";
 			type="mil_dot";
@@ -8798,7 +8798,7 @@ class Mission
 		};
 		class Item67
 		{
-			position[]={3649.4426,7.00559,13384.339};
+			position[]={16983.406,6.376277,13245.261};
 			name="jail_release";
 			type="Empty";
 			angle=190.78471;
@@ -9007,21 +9007,21 @@ class Mission
 		};
 		class Item92
 		{
-			position[]={21705.992,15.127161,7547.0566};
+			position[]={11222.187,182.41,8712.1621};
 			name="Dealer_1_3";
 			text="Drug Dealer";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=-138.91266;
+			angle=-53.120316;
 		};
 		class Item93
 		{
-			position[]={20722.723,57.7551,6597.6108};
+			position[]={11519.883,20.853907,9422.3438};
 			name="Dealer_1_4";
 			text="Drug Dealer";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=-57.933056;
+			angle=-108.36756;
 		};
 		class Item94
 		{
@@ -10009,17 +10009,17 @@ class Mission
 		};
 		class Item217
 		{
-			position[]={18883.418,178.56361,9877.6553};
+			position[]={10930.651,34.11071,11160.619};
 			name="Rebel_Border_1";
 			markerType="RECTANGLE";
 			type="mil_box";
 			colorName="ColorRed";
-			a=2550;
+			a=500;
 			b=30;
 		};
 		class Item218
 		{
-			position[]={19820.037,52.105728,7977.9165};
+			position[]={10640.084,44.12101,8838.5361};
 			name="rebel_area_marker";
 			text="REBEL AREA";
 			type="hd_dot";
