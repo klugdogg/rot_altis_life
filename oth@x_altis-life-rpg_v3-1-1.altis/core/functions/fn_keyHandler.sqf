@@ -123,6 +123,20 @@ switch (_code) do
 	{
 		if(playerSide != west && (player getVariable "restrained") OR (player getVariable "transporting")) then {_handled = true;};
 	};
+	
+	//Shift H - Surrender Test // Thanks to Joe from BWG
+	case 35:
+	{
+		if(_shift) then {
+			if (player getVariable ["surrender", false]) then {
+				player setVariable ["surrender", false, true];
+			} else {
+				[] spawn life_fnc_surrender;
+			};
+		};
+		_handled = true
+	};
+		
 	//F Key
 	case 33:
 	{
