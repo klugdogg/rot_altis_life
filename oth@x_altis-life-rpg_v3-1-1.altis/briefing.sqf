@@ -55,9 +55,9 @@ player createDiarySubject ["controls","Controls"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Server Rules", 
+			"Check the website for the current rules and punishments", 
 				"
-				Check the website forums for updated server rules<br/><br/>
+				http://reignofterrorclan.enjin.com/forum/m/17518766/viewthread/11327612-altis-life-rules<br/><br/>
 				"
 		]
 	];
@@ -75,6 +75,7 @@ player createDiarySubject ["controls","Controls"];
 				Left Shift + R: Restrain (Cop Only)<br/>
 				Left Shift + G: Knock out / stun (Civ Only, used for robbing them)<br/>
 				Left Shift + L: Cop Siren Lights<br/>
+				Left Shift + H: Surrender<br/>
 				"
 		]
 	];
