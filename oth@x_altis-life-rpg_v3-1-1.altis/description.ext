@@ -6,7 +6,7 @@ respawn = BASE;
 respawndelay = 10;
 disabledAI = true;
 disableChannels[]={2,6};
-enableDebugConsole = 0;
+enableDebugConsole = 1;
 
 class Header
 {
@@ -54,6 +54,12 @@ class CfgSounds
   {
    name = "Locksound";
    sound[] = {"\sounds\vehicle_lock.ogg", 0.5, 1};
+   titles[] = {};
+   };
+   class Hits
+   {
+   name = "Hits";
+   sound[] = {"\sounds\hits.ogg", 0.5, 1};
    titles[] = {};
    };
 };

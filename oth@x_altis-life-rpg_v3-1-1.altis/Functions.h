@@ -278,6 +278,7 @@ class Life_Client_Core
 		class lockpick {};
 		class spikeStrip {};
 		class jerryRefuel {};
+		class smokeweed {}; //added for smoking weed
 	};
 	
 	class Dialog_Controls
