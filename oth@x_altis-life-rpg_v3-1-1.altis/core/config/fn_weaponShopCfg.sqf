@@ -91,6 +91,9 @@ switch(_shop) do
 						["arifle_MXC_F",nil,30000],
 						["arifle_MX_SW_F",nil,100000],
 						["srifle_GM6_F",nil,150000],
+						["arifle_Mk20C_plain_F",nil,15000],
+						["arifle_MXM_DMS_F",nil,50000],
+						["srifle_EBR_F",nil,50000],
 						["optic_MRCO",nil,5000],
 						["optic_Arco",nil,2500],
 						["optic_SOS",nil,4000],
@@ -100,7 +103,11 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_9x21_Mag",nil,60],
 						["9Rnd_45ACP_Mag",nil,45],
-						["5Rnd_127x108_Mag",nil,400]
+						["5Rnd_127x108_Mag",nil,400],
+						["16Rnd_9x21_Mag",nil,25],
+						["100Rnd_65x39_caseless_mag",nil,500],
+						["20Rnd_762x51_Mag",nil,300],
+						["30Rnd_556x45_Stanag",nil,100]
 					]
 				];
 			};
