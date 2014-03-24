@@ -238,8 +238,8 @@ switch(_shop) do
 						["20Rnd_762x51_Mag",nil,300],
 						["30Rnd_556x45_Stanag",nil,100],
 						["5Rnd_127x108_Mag",nil,200],
-						["Titan_AP",nil,8000],
-						["Titan_AA",nil,8000]
+						["Titan_AP",nil,50000],
+						["Titan_AA",nil,100000]
 					]
 				];
 			};

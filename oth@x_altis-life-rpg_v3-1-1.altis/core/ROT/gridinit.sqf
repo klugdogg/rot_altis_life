@@ -8,6 +8,10 @@
 
 #include "corrections.sqf"
 
+#include "houses\gogurt.sqf"
+
+#include "houses\pommi3.sqf"
+
 
 
 

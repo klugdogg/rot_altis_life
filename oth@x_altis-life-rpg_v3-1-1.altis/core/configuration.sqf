@@ -32,6 +32,7 @@ life_interrupted = false;
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 //life_gcam_admin_lvl = 2;
 life_spectator_admin_lvl = 2;
+life_teleport_admin_lvl = 3;
 /*
 *****************************
 ****** Weight Variables *****
