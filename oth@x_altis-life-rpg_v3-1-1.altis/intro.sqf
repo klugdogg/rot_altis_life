@@ -16,6 +16,9 @@ _civ = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Turtles have had their price reduced back down to $3000 per turtle.",
 		"Weed Smoking has been implemented!",
 		"Shift H will allow you to surrender.",
+		"New Donator items available in the weapons store and some price changes to other donator items.",
+		"Suicide Vests are now added to the rebel stores (check the rules around these!).",
+		"Some donator islands are now included in this release.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
@@ -27,6 +30,9 @@ _cop = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Weed Smoking has been implemented!",
 		"Shift H will allow you to surrender.",
 		"Shift R restrains the civilian/rebel.",
+		"New Donator items available in the weapons store and some price changes to other donator items.",
+		"Suicide Vests are now added to the rebel stores (check the rules around these!).",
+		"Some donator islands are now included in this release.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
