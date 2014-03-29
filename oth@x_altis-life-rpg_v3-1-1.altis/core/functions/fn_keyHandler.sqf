@@ -58,6 +58,17 @@ switch (_code) do
 		};
 	};
 	
+	//Un-Restraining for civs (Shift + N)
+	case 49:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && (cursorTarget getVariable "zipTie") && speed cursorTarget < 1) then
+		{
+			[] call life_fnc_unzip;
+			hint "Unrestraining.";
+		};
+	};
+	
 	//Knock out, this is experimental and yeah...
 	case 34:
 	{

@@ -18,7 +18,9 @@ _civ = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Shift H will allow you to surrender.",
 		"New Donator items available in the weapons store and some price changes to other donator items.",
 		"Suicide Vests are now added to the rebel stores (check the rules around these!).",
-		"Some donator islands are now included in this release.",
+		"NEW: Suicide Vests have had their explosive power increased.",
+		"NEW: Zip tie your foes, get them at the new rebel item store.  Use them in your inventory when close to a civ/cop.",
+		"Shift - N releases a ziptied player.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
@@ -32,7 +34,6 @@ _cop = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Shift R restrains the civilian/rebel.",
 		"New Donator items available in the weapons store and some price changes to other donator items.",
 		"Suicide Vests are now added to the rebel stores (check the rules around these!).",
-		"Some donator islands are now included in this release.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 

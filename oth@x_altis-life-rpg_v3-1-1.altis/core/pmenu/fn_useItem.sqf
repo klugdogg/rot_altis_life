@@ -89,6 +89,11 @@ switch (true) do
 		[] spawn life_fnc_pickAxeUse;
 	};
 	
+	case (_item == "zipties"):
+	{
+		[] spawn life_fnc_civrestrainAction;
+	};
+	
 	default
 	{
 		hint "This item isn't usable.";

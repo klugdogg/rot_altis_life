@@ -72,6 +72,9 @@ class Life_Client_Core
 		class robAction {};
 		class sellTurtle {};
 		class surrender {};
+		class civrestrainAction {};
+		class unzip {};
+		class unrestrainciv {};
 	};
 	
 	class Config
@@ -191,6 +194,7 @@ class Life_Client_Core
 		class robPerson {};
 		class removeLicenses {};
 		class zoneCreator {};
+		class civrestrain {};
 	};
 	
 	class Vehicle
