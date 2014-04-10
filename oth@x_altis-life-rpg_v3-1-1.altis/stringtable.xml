@@ -400,5 +400,8 @@
 		<Key ID="STR_vInAct_Impound">
 			<Original>Impound Vehicle</Original>
 		</Key>
+		<Key ID="STR_vInAct_flipcar">
+			<Original>Flip Car</Original>
+		</Key>
 	</Package>
 </Project>

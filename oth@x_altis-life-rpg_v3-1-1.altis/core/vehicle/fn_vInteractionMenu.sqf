@@ -10,8 +10,9 @@
 #define Btn3 37452
 #define Btn4 37453
 #define Btn5 37454
+#define Btn6 37455		//Add new button for flip car action
 #define Title 37401
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6"];	//Add new button for flip car (button 6)
 if(!dialog) then {
 	createDialog "vInteraction_Menu";
 };
@@ -26,6 +27,7 @@ _Btn2 = _display displayCtrl Btn2;
 _Btn3 = _display displayCtrl Btn3;
 _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
+_Btn6 = _display displayCtrl Btn6;		//Button 6 add (flip car)
 life_vInact_curTarget = _curTarget;
 
 //Set Repair Action
@@ -52,4 +54,6 @@ if(playerSide == west) then {
 	_Btn3 ctrlShow false;
 	_Btn4 ctrlShow false;
 	_Btn5 ctrlShow False;
+	_Btn6 ctrlSetText localize "STR_vInAct_flipcar";
+	_Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_flipcar; closeDialog 0;";		//Starts the flipcar action
 };

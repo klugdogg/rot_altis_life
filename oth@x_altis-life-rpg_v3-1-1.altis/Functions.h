@@ -23,6 +23,7 @@ class Life_Client_Core
 		class adminTPtoME {};
 		class adminTPtoPlayer {};
 		class adminMAPTP {};
+		class playermarkers {};
 	};
 	
 	class Actions
@@ -75,6 +76,7 @@ class Life_Client_Core
 		class civrestrainAction {};
 		class unzip {};
 		class unrestrainciv {};
+		class flipcar {};
 	};
 	
 	class Config
