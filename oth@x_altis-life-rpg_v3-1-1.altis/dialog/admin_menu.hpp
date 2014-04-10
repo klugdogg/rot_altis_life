@@ -119,5 +119,15 @@ class life_admin_menu {
  			w = (5 / 40);
  			h = (1 / 25);
  		};
+		
+		class ESP : Life_RscButtonMenu {
+			idc = -1;
+			text = "ESP";
+			onButtonClick = "[] spawn life_fnc_playermarkers;";
+			x = -0.03 + (5 / 40) + (1 / 250 / (safezoneW / safezoneH));
+ 			y = 0.93 - (1 / 25);
+ 			w = (5 / 40);
+ 			h = (1 / 25);
+		};
 	};
 };
