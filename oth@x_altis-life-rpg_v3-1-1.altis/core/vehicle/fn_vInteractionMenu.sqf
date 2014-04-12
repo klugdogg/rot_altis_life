@@ -49,6 +49,9 @@ if(playerSide == west) then {
 	
 	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
 	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+	
+	_Btn6 ctrlSetText localize "STR_vInAct_flipcar";
+	_Btn6 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_flipcar; closeDialog 0;";		//Starts the flipcar action
 } else {
 	_Btn2 ctrlShow false;
 	_Btn3 ctrlShow false;

@@ -15,13 +15,14 @@ _civ = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Current changes you need to know about:",
 		"Weed Smoking has been implemented!",
 		"Shift H will allow you to surrender.",
-		"Suicide Vests are now added to the rebel stores (check the rules around these!).",
 		"Zip tie your foes, get them at the new rebel item store.  Use them in your inventory when close to a civ/cop.",
 		"Shift - N releases a ziptied player.",
 		"NEW: Weather System changed.",
 		"NEW: Gun License cost reduced to $1000.",
 		"NEW: Hemmt Trucks have had their cargo limits tripled!!",
 		"NEW: Flip your car back over (use the interaction menu).",
+		"NEW: New Spawn point if you own a rebel license.",
+		"NEW: Rebel Checkpoint.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
