@@ -198,6 +198,15 @@ switch (_vehicle) do
 			["icons\hellcat.jpg"]
 		];
 	};
+	
+	case "I_MRAP_03_F":
+	{
+		_ret =
+		[
+			["\A3\Soft_F_Beta\MRAP_03\data\mrap_03_ext_co.paa","donate"]
+		];
+	};
+	
 };
 
 _ret;

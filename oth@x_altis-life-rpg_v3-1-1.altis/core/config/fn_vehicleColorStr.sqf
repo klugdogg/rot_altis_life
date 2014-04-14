@@ -157,6 +157,14 @@ switch (_vehicle) do
 		};
 	};
 	
+	case "B_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Digi Desert"};
+		};
+	};
+	
 	case "I_Truck_02_covered_F":
 	{
 		switch (_index) do

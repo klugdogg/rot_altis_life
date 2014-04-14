@@ -23,6 +23,7 @@ _civ = [format["Welcome to RoT Aussie Life",name player] hintC
 		"NEW: Flip your car back over (use the interaction menu).",
 		"NEW: New Spawn point if you own a rebel license.",
 		"NEW: Rebel Checkpoint.",
+		"NEW: NEW Strider for Tier 3 Donators added.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
@@ -38,6 +39,7 @@ _cop = [format["Welcome to RoT Aussie Life",name player] hintC
 		"NEW: Gun License cost reduced to $1000.",
 		"NEW: Hemmt Trucks have had their cargo limits tripled!!",
 		"NEW: Flip your car back over (use the interaction menu).",
+		"NEW: NEW Strider for Tier 3 Donators added.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
