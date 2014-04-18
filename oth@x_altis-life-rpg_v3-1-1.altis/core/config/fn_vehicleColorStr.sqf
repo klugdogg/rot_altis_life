@@ -157,11 +157,20 @@ switch (_vehicle) do
 		};
 	};
 	
-	case "B_MRAP_03_F":
+	case "I_MRAP_03_F":
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Digi Desert"};
+			case 0: {_color = "Black"};
+			case 1: {_color = "Digi Desert"};
+		};
+	};
+	
+	case "B_MRAP_01_hmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Black"};
 		};
 	};
 	

@@ -207,8 +207,8 @@ switch (_shop) do
 		["C_SUV_01_F",20000]];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return set[count _return,
-			["B_MRAP_01_F",30000]];
+			_return set[count _return,["B_MRAP_01_F",30000]];
+			_return set[count _return,["I_MRAP_03_F",50000]];
 		};
 	};
 	
@@ -220,8 +220,8 @@ switch (_shop) do
 		["C_SUV_01_F",20000]];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return set[count _return,
-			["B_MRAP_01_F",30000]];
+			_return set[count _return,["B_MRAP_01_F",30000]];
+			_return set[count _return,["I_MRAP_03_F",50000]];			
 		};
 	};
 	
@@ -233,8 +233,8 @@ switch (_shop) do
 		["C_SUV_01_F",20000]];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return set[count _return,
-			["B_MRAP_01_F",30000]];
+			_return set[count _return,["B_MRAP_01_F",30000]];
+			_return set[count _return,["I_MRAP_03_F",50000]];
 		};
 	};
 	
@@ -246,8 +246,8 @@ switch (_shop) do
 		["C_SUV_01_F",20000]];
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return set[count _return,
-			["B_MRAP_01_F",30000]];
+			_return set[count _return,["B_MRAP_01_F",30000]];
+			_return set[count _return,["I_MRAP_03_F",50000]];
 		};
 	};
 	
