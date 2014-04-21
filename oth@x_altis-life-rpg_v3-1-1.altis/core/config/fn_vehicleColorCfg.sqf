@@ -204,7 +204,7 @@ switch (_vehicle) do
 		_ret =
 		[
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
-			["\A3\Soft_F_Beta\MRAP_03\data\mrap_03_ext_co.paa","donate"]
+			["\A3\Soft_F_Beta\MRAP_03\data\mrap_03_ext_co.paa","civ"]
 		];
 	};
 	
