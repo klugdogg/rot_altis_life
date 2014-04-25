@@ -247,7 +247,7 @@ buy_array =
 	["redgull",1500],
 	["fuelF",850],
 	["peach",68],
-	["spikeStrip",1000],
+	["spikeStrip",1500],
 	["zipties",100]
 ];
 __CONST__(buy_array,buy_array);
