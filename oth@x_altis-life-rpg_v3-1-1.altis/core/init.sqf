@@ -76,6 +76,8 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] execVM "core\init_survival.sqf";
+// Init automatically saving gear
+[] spawn life_fnc_autoSave;
 
 setPlayerRespawnTime life_respawn_timer; //Set our default respawn time.
 [] execVM "core\monitor_esc.sqf";

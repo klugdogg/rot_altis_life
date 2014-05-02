@@ -170,6 +170,7 @@ class Life_Client_Core
 		class nearUnits {};
 		class fedSuccess {};
 		class actionKeyHandler {};
+		class autoSave {};
 	};
 	
 	class Network
