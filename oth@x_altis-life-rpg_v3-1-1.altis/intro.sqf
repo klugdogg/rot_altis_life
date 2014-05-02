@@ -17,13 +17,14 @@ _civ = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Shift H will allow you to surrender.",
 		"Zip tie your foes, get them at the new rebel item store.  Use them in your inventory when close to a civ/cop.",
 		"Shift - N releases a ziptied player.",
-		"NEW: Weather System changed.",
-		"NEW: Gun License cost reduced to $1000.",
-		"NEW: Hemmt Trucks have had their cargo limits tripled!!",
-		"NEW: Flip your car back over (use the interaction menu).",
-		"NEW: New Spawn point if you own a rebel license.",
-		"NEW: Rebel Checkpoint.",
-		"NEW: NEW Strider for Tier 3 Donators added.",
+		"Hemmt Trucks have had their cargo limits tripled!!",
+		"Flip your car back over (use the interaction menu).",
+		"New Spawn point if you own a rebel license.",
+		"Rebel Checkpoint added.",
+		"NEW: Civ's save gear on respawn.",
+		"NEW: Auto Sync every 10 minutes.",
+		"NEW: Sting added to donator's Tier 2 - Happy now Matt...",
+		"NEW: Titan Launchers price decreased slightly.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 
@@ -35,11 +36,13 @@ _cop = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Shift H will allow you to surrender.",
 		"Shift R restrains the civilian/rebel.",
 		"Suicide Vests are now added to the rebel stores (check the rules around these!).",
-		"NEW: Weather System changed.",
-		"NEW: Gun License cost reduced to $1000.",
-		"NEW: Hemmt Trucks have had their cargo limits tripled!!",
-		"NEW: Flip your car back over (use the interaction menu).",
-		"NEW: NEW Strider for Tier 3 Donators added.",
+		"Weather System changed.",
+		"Hemmt Trucks have had their cargo limits tripled!!",
+		"Flip your car back over (use the interaction menu).",
+		"NEW: Civ's save gear on respawn.",
+		"NEW: Auto Sync every 10 minutes.",
+		"NEW: Sting added to donator's Tier 2 - Happy now Matt...",
+		"NEW: Titan Launchers price decreased slightly.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
 ]];
 

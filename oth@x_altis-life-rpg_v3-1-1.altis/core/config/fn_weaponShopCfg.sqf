@@ -197,6 +197,7 @@ switch(_shop) do
 					[
 						["hgun_Rook40_F",nil,600],
 						["hgun_PDW2000_F",nil,5000],
+						["SMG_02_F",nil,50000],
 						["arifle_MK20C_plain_F",nil,25000],
 						["optic_ACO_grn_smg",nil,500],
 						["acc_pointer_IR",nil,1000],
@@ -226,8 +227,8 @@ switch(_shop) do
 						["arifle_MXM_DMS_F",nil,50000],
 						["srifle_GM6_F",nil,175000],
 						["srifle_EBR_F",nil,50000],
-						["launch_Titan_short_F",nil,400000],
-						["launch_Titan_F",nil,600000],
+						["launch_Titan_short_F",nil,200000],
+						["launch_Titan_F",nil,400000],
 						["acc_pointer_IR",nil,500],
 						["optic_ACO_grn_smg",nil,250],
 						["optic_MRCO",nil,10000],
@@ -245,8 +246,8 @@ switch(_shop) do
 						["20Rnd_762x51_Mag",nil,300],
 						["30Rnd_556x45_Stanag",nil,100],
 						["5Rnd_127x108_Mag",nil,200],
-						["Titan_AP",nil,50000],
-						["Titan_AA",nil,100000]
+						["Titan_AP",nil,25000],
+						["Titan_AA",nil,50000]
 					]
 				];
 			};
