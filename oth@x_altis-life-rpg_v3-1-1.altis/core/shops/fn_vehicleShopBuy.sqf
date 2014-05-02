@@ -196,6 +196,12 @@ switch(life_veh_shop) do
 		_dir = markerDir "cop_ship_1";
 	};
 	
+	case "cop_ship_2":
+	{
+		_sp = getMarkerPos "cop_ship_2";
+		_dir = markerDir "cop_ship_2";
+	};
+	
 	case "donator_heli":
 	{
 		_sp = getMarkerPos "donator_heli";

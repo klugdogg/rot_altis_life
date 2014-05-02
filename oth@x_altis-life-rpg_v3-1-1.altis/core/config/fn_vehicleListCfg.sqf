@@ -380,16 +380,21 @@ switch (_shop) do
 			};
 	};
 	
-		_return set[count _return,
-		["C_Offroad_01_F",5000]];
-		_return set[count _return,
-		["C_SUV_01_F",20000]];
-		if(__GETC__(life_coplevel) > 2) then
-		{
+	case "cop_ship_2":
+	{
 			_return set[count _return,
-			["B_MRAP_01_F",30000]];
-		};
-	
+			["B_Boat_Transport_01_F",3000]];
+			_return set[count _return,
+			["C_Boat_Civil_01_police_F",20000]];
+			_return set[count _return,
+			["B_SDV_01_F",100000]];
+			if(__GETC__(life_coplevel) > 2) then
+			{
+				_return set[count _return,
+				["B_Boat_Armed_01_minigun_F",75000]];
+			};
+	};
+		
 	case "donator_heli":
 	{
 		_return =

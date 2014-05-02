@@ -48,6 +48,18 @@ switch (life_veh_shop) do
 			_ret = true;
 		};
 	};
+	case "cop_ship_2": 
+	{
+		hint format["%1", _veh];
+		if(_veh == "B_Boat_Armed_01_minigun_F") then
+		{
+			_ret = license_cop_cg;
+		}
+			else
+		{
+			_ret = true;
+		};
+	};
 };
 
 _ret;
