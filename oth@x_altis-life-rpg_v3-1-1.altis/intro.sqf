@@ -22,7 +22,7 @@ _civ = [format["Welcome to RoT Aussie Life",name player] hintC
 		"Rebel Checkpoint added.",
 		"NEW: Civ's save gear on respawn.",
 		"NEW: Auto Sync every 10 minutes.",
-		"NEW: Sting added to donator's Tier 2 - Happy now Matt...",
+		"NEW: Sting added to donator's Tier 2",
 		"NEW: Titan Launchers price decreased slightly.",
 		"NEW: New Garage in Pyrgos.",
 		"All the rules can be located on the forums.  Visit us at http://www.reignofterrorclan.enjin.com/"
