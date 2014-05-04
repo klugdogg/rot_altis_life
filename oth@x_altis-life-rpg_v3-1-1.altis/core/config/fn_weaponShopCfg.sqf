@@ -34,13 +34,17 @@ switch(_shop) do
 						["hgun_P07_F",nil,7500],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
-						["ToolKit",nil,250],
+						["ToolKit",nil,50],
 						["muzzle_snds_L",nil,650],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,1000],
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
+						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300]
 					]
 				];
 			};
@@ -65,7 +69,7 @@ switch(_shop) do
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,130],
-						["30Rnd_9x21_Mag",nil,250]						
+						["30Rnd_9x21_Mag",nil,75]						
 					]
 				];
 			};
@@ -85,16 +89,25 @@ switch(_shop) do
 						["SMG_02_ACO_F",nil,15000],
 						["hgun_ACPC2_F",nil,17500],
 						["arifle_MXC_F",nil,30000],
+						["arifle_MX_SW_F",nil,100000],
 						["srifle_GM6_F",nil,150000],
+						["arifle_Mk20C_plain_F",nil,15000],
+						["arifle_MXM_DMS_F",nil,50000],
+						["srifle_EBR_F",nil,50000],
+						["optic_MRCO",nil,5000],
 						["optic_Arco",nil,2500],
 						["optic_SOS",nil,4000],
-						["optic_Nightstalker",nil,8000],
+						["Rangefinder",nil,7000],
 						["acc_pointer_IR",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200],
-						["5Rnd_127x108_Mag",nil,400]
+						["9Rnd_45ACP_Mag",nil,45],
+						["5Rnd_127x108_Mag",nil,400],
+						["16Rnd_9x21_Mag",nil,25],
+						["100Rnd_65x39_caseless_mag",nil,500],
+						["20Rnd_762x51_Mag",nil,300],
+						["30Rnd_556x45_Stanag",nil,100]
 					]
 				];
 			};
@@ -171,6 +184,7 @@ switch(_shop) do
 						["acc_pointer_IR",nil,2500],
 						["ToolKit",nil,50],
 						["itemgps",nil,50],
+						["FirstAidKit",nil,25],
 						["16Rnd_9x21_Mag",nil,25],
 						["30Rnd_9x21_Mag",nil,75]
 					]
@@ -181,17 +195,20 @@ switch(_shop) do
 			{
 				["RoT Donator Shop Tier 2",
 					[
-						["hgun_Rook40_F",nil,750],
-						["hgun_PDW2000_F",nil,6500],
+						["hgun_Rook40_F",nil,600],
+						["hgun_PDW2000_F",nil,5000],
+						["SMG_02_F",nil,50000],
 						["arifle_MK20C_plain_F",nil,25000],
-						["optic_ACO_grn_smg",nil,750],
+						["optic_ACO_grn_smg",nil,500],
+						["acc_pointer_IR",nil,1000],
 						["srifle_GM6_F",nil,300000],
 						["optic_SOS",nil,6000],
-						["NVGoggles",nil,350],
-						["ToolKit",nil,50],
+						["NVGoggles",nil,2000],
+						["ToolKit",nil,20],
 						["itemgps",nil,50],
+						["FirstAidKit",nil,20],
 						["16Rnd_9x21_Mag",nil,25],
-						["30Rnd_9x21_Mag",nil,75],
+						["30Rnd_9x21_Mag",nil,25],
 						["30Rnd_556x45_Stanag",nil,125],
 						["5Rnd_127x108_Mag",nil,400]
 					]
@@ -203,22 +220,34 @@ switch(_shop) do
 				["RoT Donator Shop Tier 3",
 					[
 						["hgun_Rook40_F",nil,500],
-						["hgun_PDW2000_F",nil,6500],
+						["hgun_PDW2000_F",nil,4000],
 						["hgun_pistol_heavy_01_F",nil,5850],
-						["arifle_Mk20C_plain_F",nil,25000],
+						["arifle_Mk20C_plain_F",nil,15000],
+						["arifle_MX_SW_F",nil,100000],
+						["arifle_MXM_DMS_F",nil,50000],
 						["srifle_GM6_F",nil,175000],
-						["optic_ACO_grn_smg",nil,750],
+						["srifle_EBR_F",nil,50000],
+						["launch_Titan_short_F",nil,200000],
+						["launch_Titan_F",nil,400000],
+						["acc_pointer_IR",nil,500],
+						["optic_ACO_grn_smg",nil,250],
 						["optic_MRCO",nil,10000],
-						["optic_Nightstalker",nil,50000],
-						["NVGoggles",nil,350],
-						["ToolKit",nil,50],
+						["optic_SOS",nil,4000],
+						["Rangefinder",nil,7000],
+						["NVGoggles",nil,2000],
+						["ToolKit",nil,20],
 						["itemgps",nil,50],
-						["FirstAidKit",nil,25],
+						["FirstAidKit",nil,20],
 						["16Rnd_9x21_Mag",nil,25],
-						["30Rnd_9x21_Mag",nil,75],
+						["30Rnd_9x21_Mag",nil,25],
 						["11Rnd_45ACP_Mag",nil,85],
-						["30Rnd_556x45_Stanag",nil,125],
-						["5Rnd_127x108_Mag",nil,400]
+						["30Rnd_65x39_caseless_mag",nil,100],
+						["100Rnd_65x39_caseless_mag",nil,500],
+						["20Rnd_762x51_Mag",nil,300],
+						["30Rnd_556x45_Stanag",nil,100],
+						["5Rnd_127x108_Mag",nil,200],
+						["Titan_AP",nil,25000],
+						["Titan_AA",nil,50000]
 					]
 				];
 			};

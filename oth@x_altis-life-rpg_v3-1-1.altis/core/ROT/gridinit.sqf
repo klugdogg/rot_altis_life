@@ -6,6 +6,14 @@
 
 #include "KHQoffice.sqf"
 
-#include "OfficeBuildJail.sqf"
-
 #include "corrections.sqf"
+
+#include "houses\gogurt.sqf"
+
+#include "houses\pommi3.sqf"
+
+
+
+
+
+

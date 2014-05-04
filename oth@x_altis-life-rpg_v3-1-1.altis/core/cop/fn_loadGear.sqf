@@ -22,9 +22,13 @@ _allowedItems =
 	"optic_Arco",
 	"optic_MRCO",
 	"optic_SOS",
-	"optic_Nightstalker",
 	"muzzle_snds_H",
-	"muzzle_snds_L"
+	"muzzle_snds_L",
+	"hgun_ACPC2_F", //Sergeants Shop
+	"arifle_MX_SW_F",
+	"arifle_Mk20C_plain_F",
+	"arifle_MXM_DMS_F",
+	"srifle_EBR_F"
 ];
 if(isNil "_loadout") exitWith {[] call life_fnc_copDefault;}; //Slot data doesn't exist
 if(count _loadout == 0) exitWith {[] call life_fnc_copDefault;}; //Slot data doesn't exist

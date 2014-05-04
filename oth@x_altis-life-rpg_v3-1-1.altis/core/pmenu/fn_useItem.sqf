@@ -65,7 +65,7 @@ switch (true) do
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
-			[] spawn fnc_drugweed_use;
+			[] spawn life_fnc_smokeweed;
 		};
 	};
 	
@@ -87,6 +87,11 @@ switch (true) do
 	case (_item == "pickaxe"):
 	{
 		[] spawn life_fnc_pickAxeUse;
+	};
+	
+	case (_item == "zipties"):
+	{
+		[] spawn life_fnc_civrestrainAction;
 	};
 	
 	default

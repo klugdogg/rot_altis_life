@@ -197,6 +197,12 @@ switch(life_veh_shop) do
 		_dir = markerDir "cop_ship_1";
 	};
 	
+	case "cop_ship_2":
+	{
+		_sp = getMarkerPos "cop_ship_2";
+		_dir = markerDir "cop_ship_2";
+	};
+	
 	case "donator_heli":
 	{
 		_sp = getMarkerPos "donator_heli";
@@ -211,7 +217,8 @@ switch(life_veh_shop) do
 };
 _index = lbCurSel 2302;
 _veh = lbData[2302,_index];
-if(_veh == "B_G_Offroad_01_armed_F" OR _veh == "B_MRAP_01_hmg_F") exitWith {hint "This vehicle cannot be bought permanently";};
+//if(_veh == "B_G_Offroad_01_armed_F" OR _veh == "B_MRAP_01_hmg_F") exitWith {hint "This vehicle cannot be bought permanently";};
+if(_veh == "B_G_Offroad_01_armed_F") exitWith {hint "This vehicle cannot be bought permanently";};
 if(!([_veh] call life_fnc_vehShopLicenses)) exitWith {hint "You do not have the required license!"};
 _color = lbValue[2303,(lbCurSel 2303)];
 _price = lbValue[2302,(lbCurSel 2302)];
@@ -268,7 +275,7 @@ if(playerSide == west) then
 
 [[_vehicle,_color],"life_fnc_colorVehicle",true,false] spawn life_fnc_MP;
 
-[[(getPlayerUID player),playerSide,_vehicle,_color],"STS_fnc_vehicleCreate",false,false] spawn life_fnc_MP;
+[[(getPlayerUID player),playerSide,_vehicle,_color],"TON_fnc_vehicleCreate",false,false] spawn life_fnc_MP;
 
 _vehicle lock 2;
 if((life_veh_shop == "civ_air_1" OR life_veh_shop == "civ_air_2") && (typeOf _vehicle == "B_Heli_Light_01_F")) then

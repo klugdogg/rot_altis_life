@@ -27,8 +27,12 @@ life_spikestrip = ObjNull;
 life_respawn_timer = 35;
 life_has_insurance = false;
 life_knockout = false;
+life_interrupted = false;
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
+//life_gcam_admin_lvl = 2;
+life_spectator_admin_lvl = 2;
+life_teleport_admin_lvl = 3;
 /*
 *****************************
 ****** Weight Variables *****
@@ -140,7 +144,8 @@ life_inv_items =
 	"life_inv_spikeStrip",
 	"life_inv_rock",
 	"life_inv_cement",
-	"life_inv_goldbar"
+	"life_inv_goldbar",
+	"life_inv_zipties"
 ];
 
 //Setup variable inv vars.
@@ -216,7 +221,8 @@ sell_array =
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
-	["cement",1950]
+	["cement",1950],
+	["zipties",50]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -236,12 +242,13 @@ buy_array =
 	["donuts",120],
 	["coffee",10],
 	["tbacon",75],
-	["lockpick",150],
+	["lockpick",1000],
 	["pickaxe",1200],
 	["redgull",1500],
 	["fuelF",850],
 	["peach",68],
-	["spikeStrip",2500]
+	["spikeStrip",1500],
+	["zipties",100]
 ];
 __CONST__(buy_array,buy_array);
 
@@ -255,7 +262,7 @@ life_weapon_shop_array =
 	["ToolKit",75],
 	["FirstAidKit",65],
 	["Medikit",450],
-	["NVGoggles",980],
+	["NVGoggles",0],
 	["16Rnd_9x21_Mag",15],
 	["20Rnd_556x45_UW_mag",35],
 	["ItemMap",35],
@@ -277,7 +284,7 @@ life_weapon_shop_array =
 	["arifle_TRG21_F",3500],
 	["optic_MRCO",5000],
 	["optic_SOS",4000],
-	["optic_Nightstalker",8000],
+	["Rangefinder",1000],
 	["optic_Aco",850],
 	["arifle_MX_F",7500],
 	["arifle_MXC_F",5000],
@@ -306,6 +313,8 @@ life_garage_prices =
 	["C_Hatchback_01_sport_F",2350],
 	["C_Van_01_fuel_F",4500],
 	["I_Heli_Transport_02_F",100000],
+	["I_Heli_light_03_unarmed_F",50000],
+	["B_Heli_Transport_01_F",50000],
 	["C_Van_01_box_F",9000],
 	["I_Truck_02_transport_F",12000],
 	["I_Truck_02_covered_F",14500],
@@ -320,7 +329,9 @@ life_garage_prices =
 	["C_Boat_Civil_01_police_F",3500],
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",7500]
+//	["I_MRAP_03_F",100000],
+	["B_MRAP_01_F",7500],
+	["B_MRAP_01_hmg_F",50000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -343,12 +354,16 @@ life_garage_sell =
 	["O_MRAP_02_F",65000],
 	["B_Heli_Light_01_F",57000],
 	["O_Heli_Light_02_unarmed_F",72500],
+	["I_Heli_light_03_unarmed_F",80000],
+	["B_Heli_Transport_01_F",90000],
 	["C_Rubberboat",950],
 	["C_Boat_Civil_01_F",6800],
 	["B_Boat_Transport_01_F",850],
 	["C_Boat_Civil_01_police_F",4950],
 	["B_Boat_Armed_01_minigun_F",21000],
 	["B_SDV_01_F",45000],
-	["B_MRAP_01_F",10000]
+//	["I_MRAP_03_F",35000],
+	["B_MRAP_01_F",10000],
+	["B_MRAP_01_hmg_F",100000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

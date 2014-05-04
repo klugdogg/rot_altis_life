@@ -10,6 +10,7 @@ _vehicle = [_this,0,"",[""]] call BIS_fnc_param;
 if(_vehicle == "") exitWith {[]};
 _ret = [];
 
+
 switch (_vehicle) do
 {
 	case "I_Heli_Transport_02_F":
@@ -48,8 +49,8 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
-			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"]
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["icons\offroad_test_01.jpg","cop"]
 		];
 	};
 	
@@ -73,10 +74,10 @@ switch (_vehicle) do
 		_ret =
 		[
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa","civ"],
-			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","cop"],
+			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","cop"]
+			["icons\SUV_Cop_3.jpg","cop"]
 		];
 	};
 	
@@ -118,7 +119,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa","cop"],
+			["icons\police_hummingbird.jpg","cop"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa","fed"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa","civ"],
@@ -150,8 +151,9 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
+			["icons\hunter_test_03.jpg","cop","icons\hunter_test_back_03.jpg"],
+			["icons\hunter_mardorz.jpg","cop","icons\hunter_mardorz_back.jpg"]
 		];
 	};
 	
@@ -188,6 +190,32 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};
+	
+	case "I_Heli_light_03_unarmed_F":
+	{
+		_ret =
+		[
+			["icons\hellcat.jpg"]
+		];
+	};
+	
+//	case "I_MRAP_03_F":
+//	{
+//		_ret =
+//		[
+//			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
+//			["\A3\Soft_F_Beta\MRAP_03\data\mrap_03_ext_co.paa","donate"]
+//		];
+//	};
+	
+	case "B_MRAP_01_hmg_F":
+	{
+		_ret =
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+		];
+	};
+	
 };
 
 _ret;

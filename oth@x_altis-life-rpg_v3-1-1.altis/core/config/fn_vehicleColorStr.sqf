@@ -10,6 +10,8 @@ _vehicle = [_this,0,"",[""]] call BIS_fnc_param;
 _index = [_this,1,-1,[0]] call BIS_fnc_param;
 _color = "";
 
+
+
 switch (_vehicle) do
 {
 	case "C_Offroad_01_F" :
@@ -23,8 +25,9 @@ switch (_vehicle) do
 			case 4: {_color = "Dark Red";};
 			case 5: {_color = "Blue / White"};
 			case 6: {_color = "Black"};
-			case 7: {_color = "Black"};
-			case 8: {_color = "Taxi"};
+			/*case 7: {_color = "Black"}; */
+			case 7: {_color = "Taxi"};
+			case 8: {_color = "Cop"}; /*Added new cop texture file */
 		};
 	};
 	
@@ -116,7 +119,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Sheriff"};
+			case 0: {_color = "Police"};
 			case 1: {_color = "Black"};
 			case 2: {_color = "Civ Blue"};
 			case 3: {_color = "Civ Red"};
@@ -148,8 +151,26 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
+			case 0: {_color = "Black"};
+			case 1: {_color = "SWAT"};
+			case 2: {_color = "Mardorz Only"};
+		};
+	};
+	
+//	case "I_MRAP_03_F":
+//	{
+//		switch (_index) do
+//		{
+//			case 0: {_color = "Black"};
+//			case 1: {_color = "Digi Desert"};
+//		};
+//	};
+	
+	case "B_MRAP_01_hmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Black"};
 		};
 	};
 	
@@ -201,6 +222,14 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Black"};
+		};
+	};
+	
+	case "I_Heli_light_03_unarmed_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police"};
 		};
 	};
 };

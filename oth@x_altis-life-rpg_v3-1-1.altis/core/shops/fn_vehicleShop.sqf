@@ -196,6 +196,12 @@ switch (life_veh_shop) do
 		ctrlSetText[2301,"Cop Boat Shop"];
 	};
 	
+	case "cop_ship_2":
+	{	
+		if(playerSide == civilian) exitWith {_kill =  "You are not a cop."};
+		ctrlSetText[2301,"Cop Boat Shop"];
+	};
+	
 	case "donator_heli":
 	{
 		if(__GETC__(life_donator) < 1) exitWith {_kill = "You Have Not Donated!"};

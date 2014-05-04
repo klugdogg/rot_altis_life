@@ -9,6 +9,7 @@ class Life_Client_Core
 		class setupEVH {};
 		class initCiv {};
 		class initCop {};
+		class welcomeNotification {};
 	};
 	
 	class Admin
@@ -19,6 +20,10 @@ class Life_Client_Core
 		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
+		class adminTPtoME {};
+		class adminTPtoPlayer {};
+		class adminMAPTP {};
+		class playermarkers {};
 	};
 	
 	class Actions
@@ -67,6 +72,11 @@ class Life_Client_Core
 		class storeVehicle {};
 		class robAction {};
 		class sellTurtle {};
+		class surrender {};
+		class civrestrainAction {};
+		class unzip {};
+		class unrestrainciv {};
+		class flipcar {};
 	};
 	
 	class Config
@@ -159,6 +169,8 @@ class Life_Client_Core
 		class pulloutVeh {};
 		class nearUnits {};
 		class fedSuccess {};
+		class actionKeyHandler {};
+		class autoSave {};
 	};
 	
 	class Network
@@ -184,6 +196,8 @@ class Life_Client_Core
 		class robReceive {};
 		class robPerson {};
 		class removeLicenses {};
+		class zoneCreator {};
+		class civrestrain {};
 	};
 	
 	class Vehicle
@@ -196,6 +210,7 @@ class Life_Client_Core
 		class vehStoreItem {};
 		class vehTakeItem {};
 		class vehInventory {};
+		class vInteractionMenu {};
 	};
 	
 	class Cop
@@ -217,6 +232,10 @@ class Life_Client_Core
 		class spikeStripEffect {};
 		class radar {};
 		class questionDealer {};
+		class copInteractionMenu {};
+		class sirenLights {};
+		class licenseCheck {};
+		class licensesRead {};
 	};
 	
 	class Gangs
@@ -266,6 +285,7 @@ class Life_Client_Core
 		class lockpick {};
 		class spikeStrip {};
 		class jerryRefuel {};
+		class smokeweed {}; //added for smoking weed
 	};
 	
 	class Dialog_Controls

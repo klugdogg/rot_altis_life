@@ -19,9 +19,9 @@ _handle = [] spawn life_fnc_setupEVH;
 diag_log "::Life Client:: Setting up Eventhandlers";
 waitUntil {scriptDone _handle};
 diag_log "::Life Client:: Eventhandlers completed";
-_handle = [] spawn life_fnc_setupActions;
-diag_log "::Life Client:: Setting up user actions";
-waitUntil {scriptDone _handle};
+//_handle = [] spawn life_fnc_setupActions;
+//diag_log "::Life Client:: Setting up user actions";
+//waitUntil {scriptDone _handle};
 diag_log "::Life Client:: User actions completed";
 diag_log "::Life Client:: Waiting for server functions to transfer..";
 waitUntil {(!isNil {clientGangLeader})};
@@ -48,7 +48,7 @@ switch (playerSide) do
 		waitUntil {scriptDone _handle};
 	};
 };
-
+[] execVM "core\fastrope\zlt_fastrope.sqf";
 player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
@@ -64,7 +64,7 @@ diag_log "----------------------------------------------------------------------
 diag_log format["                End of Stratis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "------------------------------------------------------------------------------------------------------";
 life_sidechat = true;
-[[player,life_sidechat,playerSide],"STS_fnc_managesc",false,false] spawn life_fnc_MP;
+[[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
 cutText ["","BLACK IN"];
 [] call life_fnc_hudSetup;
 //[player] execVM "core\client\intro.sqf";
@@ -76,6 +76,10 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] execVM "core\init_survival.sqf";
+// Init automatically saving gear
+[] spawn life_fnc_autoSave;
 
 setPlayerRespawnTime life_respawn_timer; //Set our default respawn time.
 [] execVM "core\monitor_esc.sqf";
+[] call life_fnc_setupActions;
+[player] execVM "intro.sqf";

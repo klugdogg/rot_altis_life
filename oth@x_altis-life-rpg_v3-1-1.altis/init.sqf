@@ -18,7 +18,7 @@ if(isNull player) then
 */
 enableSaving[false,false];
 
-life_versionInfo = "Altis Life RPG v3.1.1";
+life_versionInfo = "Altis Life RPG v3.1.2";
 /*
 if(X_Client) then
 {
@@ -27,6 +27,7 @@ if(X_Client) then
 */
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
+[] execVM "weather.sqf";
 
 if(!StartProgress) then
 {

@@ -5,7 +5,7 @@
 	Description:
 	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -14,11 +14,40 @@ _alt = _this select 4;
 _speed = speed cursorTarget;
 _handled = false;
 
+_interactionKey = if(count (actionKeys "User10") == 0) then {219} else {(actionKeys "User10") select 0};
+_mapKey = actionKeys "ShowMap" select 0;
 //hint str _code;
-if(life_action_inUse) exitWith {_handled};
+_interruptionKeys = [17,30,31,32]; //A,S,W,D
+
+if(life_action_inUse) exitWith {
+	if(!life_interrupted && _code in _interruptionKeys) then {life_interrupted = true;};
+	_handled;
+};
 
 switch (_code) do
-{
+{	
+	//Map Key
+	case _mapKey:
+	{
+		if(playerSide == west && !visibleMap) then {
+			[] spawn life_fnc_copMarkers;
+		};
+	};
+	
+	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
+	case _interactionKey:
+	{
+		if(!life_action_inUse) then {
+			[] spawn 
+			{
+				private["_handle"];
+				_handle = [] spawn life_fnc_actionKeyHandler;
+				waitUntil {scriptDone _handle};
+				life_action_inUse = false;
+			};
+		};
+	};
+	
 	//Restraining (Shift + R)
 	case 19:
 	{
@@ -26,6 +55,17 @@ switch (_code) do
 		if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == civilian) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
 			[] call life_fnc_restrainAction;
+		};
+	};
+	
+	//Un-Restraining for civs (Shift + N)
+	case 49:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && (cursorTarget getVariable "zipTie") && speed cursorTarget < 1) then
+		{
+			[] call life_fnc_unzip;
+			hint "Unrestraining.";
 		};
 	};
 	
@@ -67,7 +107,20 @@ switch (_code) do
 		};
 	};
 	//L Key?
-	case 38: { if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };};
+	case 38: 
+	{
+		//If cop run checks for turning lights on.
+		if(_shift && playerSide == west) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F"]) then {
+				if(!isNil {vehicle player getVariable "lights"}) then {
+					[vehicle player] call life_fnc_sirenLights;
+					_handled = true;
+				};
+			};
+		};
+		
+		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
+	};
 	//Y Player Menu
 	case 21:
 	{
@@ -81,6 +134,20 @@ switch (_code) do
 	{
 		if(playerSide != west && (player getVariable "restrained") OR (player getVariable "transporting")) then {_handled = true;};
 	};
+	
+	//Shift H - Surrender Test // Thanks to Joe from BWG
+	case 35:
+	{
+		if(_shift) then {
+			if (player getVariable ["surrender", false]) then {
+				player setVariable ["surrender", false, true];
+			} else {
+				[] spawn life_fnc_surrender;
+			};
+		};
+		_handled = true
+	};
+		
 	//F Key
 	case 33:
 	{
@@ -123,7 +190,7 @@ switch (_code) do
 			
 			_locked = locked _veh;
 			
-			if(_veh in life_vehicles && player distance _veh < 6.5 OR vehicle player == _veh) then
+			if(_veh in life_vehicles && player distance _veh < 8) then
 			{
 				if(_locked == 2) then
 				{
@@ -149,6 +216,7 @@ switch (_code) do
 					};
 					systemChat "You have locked your vehicle.";
 				};
+				_veh say3D "locksound";
 			};
 		};
 	};
