@@ -35,7 +35,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Website/Forums",
 				"
-				www.reignofterrorclan.enjin.com/<br/>
+				www.reignofterror.com.au/<br/>
 				This is also where ban appeals will be made.<br/><br/>
 				"
 		]
@@ -46,7 +46,7 @@ player createDiarySubject ["controls","Controls"];
 			"Donations",
 				"
 				Donations keep the server running, also you gain access to donator shop.<br/><br/>
-				www.reignofterrorclan.enjin.com/<br/><br/>
+				www.reignofterror.com.au/<br/><br/>
 				"
 		]
 	];
