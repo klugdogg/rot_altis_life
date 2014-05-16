@@ -3325,6 +3325,18 @@ class Mission
 					text="reb_1_3";
 					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Rebel Car Shop"",life_fnc_vehicleShop,""reb_v_1"",0,false,false,"""",'playerSide == civilian && license_civ_rebel'];";
 				};
+				class Item104
+				{
+					position[]={10639.127,15.357876,12371.586};
+					azimut=205;
+					special="NONE";
+					id=202;
+					side="CIV";
+					vehicle="C_man_polo_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="Casino";
+					init="this allowDamage false; this enableSimulation false;";
 			};
 		};
 		class Item81
